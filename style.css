@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://images.pexels.com/photos/7130546/pexels-photo-7130546.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+
+.color {
+    margin-left: 20px;
+    /* border-radius: 50%; */
+}
+
+#black {
+    height: 55px;
+    width: 55px;
+    border: 1px solid black;
+    background-color: black;
+}
+#red {
+    height: 55px;
+    width: 55px;
+    border: 1px solid black;
+    background-color: red;
+}
+#green {
+    height: 55px;
+    width: 55px;
+    border: 1px solid black;
+    background-color: green;
+}
+#blue {
+    height: 55px;
+    width: 55px;
+    border: 1px solid black;
+    background-color: blue;
+}
+.color {
+    display: inline-block;
+}
+
+.linhaPixel {
+    display: flex;
+    justify-content: center;
+    font-size: 0;
+}
+.pixel {
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    background-color: white;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    font-family: 'Neucha', cursive;
+    font-size: 60px;
+    color: rgb(239, 71, 111);
+}
+
+#color-palette {
+    margin-left: 789px;
+    margin-top: 40px;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 40px;
+}
+
+#board-size{
+    width: 90px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 0;
+    border: 1px solid black;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+#clear-board {
+    width: 90px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 0;
+    border: 1px solid black;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+#generate-board {
+    width: 90px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 0;
+    border: 1px solid black;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 800;
+}
+
+#pixel-board {
+    margin: 20px;
+}
